@@ -1,0 +1,33 @@
+{
+  "name": "sonoslack",
+  "version": "1.0.0",
+  "description": "Slack integration for Sonos Audio",
+  "main": "index.iced",
+  "dependencies": {
+    "randomcolor": "^0.1.1",
+    "request": "^2.44.0",
+    "sonos": "^0.6.1"
+  },
+  "devDependencies": {
+    "iced-coffee-script": "^1.7.1-g"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ewiner/sonoslack"
+  },
+  "keywords": [
+    "sonos",
+    "slack",
+    "chat",
+    "music"
+  ],
+  "author": "Eric Winer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ewiner/sonoslack/issues"
+  },
+  "homepage": "https://github.com/ewiner/sonoslack"
+}
