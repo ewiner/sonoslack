@@ -40,6 +40,8 @@ checkSong = ->
     console.log(oneLiner)
 
     postToChat(
+      username: 'SonosBot'
+      icon_emoji: ':speaker:'
       attachments: [
         {
           fallback: oneLiner
