@@ -37,6 +37,8 @@ node_modules
 # Icon must end with two \r
 Icon
 
+# Album art temp
+art.png
 
 # Thumbnails
 ._*
