@@ -4,6 +4,7 @@
   "description": "Slack integration for Sonos Audio",
   "main": "index.iced",
   "dependencies": {
+    "imgur": "^0.1.5",
     "randomcolor": "^0.1.1",
     "request": "^2.44.0",
     "sonos": "^0.6.1"

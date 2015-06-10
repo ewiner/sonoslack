@@ -1,4 +1,10 @@
 {
     "slackIncomingWebHookUrl": "https://mysite.slack.com/services/hooks/incoming-webhook?token=seofiu94sudjrkjes93w",
-    "sonosIpAddress": "192.168.1.105" // or "detect" to detect your Sonos IP address
+    "sonosIpAddress": "192.168.1.105", // or "detect" to detect your Sonos IP address
+    "username": "SonosBot", // or null to use the name set up on Slack
+    "icon_emoji": ":speaker:", // or null to use the icon/image set up on Slack
+    "favorites": {
+        // notify these people when their favorite artist comes on
+        "@bobby": ["Taylor Swift", "Miley Cyrus"]
+    }
 }
