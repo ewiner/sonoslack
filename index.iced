@@ -74,7 +74,7 @@ postSong = (track) ->
     ]
 
   for key in ['username', 'icon_emoji']
-    if config[key] then postOption[key] = config[key]
+    if config[key] then postOptions[key] = config[key]
 
   usersToNotify = []
   for user, favorites of config.favorites
